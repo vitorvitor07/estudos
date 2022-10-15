@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Gringo</title>
+</head>
+<body>
+    <h1>País</h1>
+    <p>Qual o seu país?</p>
+    <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="verificar" onclick="verify()">
+    <div id="div"></div>
+    <script>
+        function verify(){
+            var txtp = document.getElementById('txtpais')
+            var pais = txtp.value
+            var d = document.getElementById('div')
+            if (pais != 'brasil') {
+                d.innerHTML = `<p>Por você morar no país: ${pais}<br>Você é Gringo</p>`                
+            } else {
+                d.innerHTML = 'brasileiro'
+            }
+        }
+    </script>
+
+</body>
+</html>
