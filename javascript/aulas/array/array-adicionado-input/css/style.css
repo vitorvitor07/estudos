@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    color: white;
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.459);
+} 
+
+h3{
+    margin: 15px 0px;
+    display: none;
+}
+
+body{
+    background-color: rgba(255, 110, 14, 0.836);
+}
+
+main{
+    background-color: white;
+    width: 350px;
+    margin: 5px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+}
+
+#valor{
+    padding: 5px;
+}
+
+#adicionar, #verificar{
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+footer{
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    position: absolute;
+    margin: 10px auto;
+    width: 50px;
+
+}
+
+a, img{
+    height: 50px;
+    position: absolute;
+    border-radius: 100%;
+    width: 50px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Hora agora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <h1 id="h1">Hora do Dia</h1>
+    <div class="conteiner">        
+        <h2 id="periodo"></h2>
+        <div id="horadia">hora/dia</div>
+        <div class="ima">
+            <div id="imagem"></div>
+        </div>
+        <script>
+            var hour = new Date
+            var hora = hour.getHours()
+            var minutes = new Date
+            var min = minutes.getMinutes()
+            var p = document.getElementById('horadia')
+            var b = document.getElementById('body')
+            var img = document.getElementById('imagem')
+            var peri = document.getElementById('periodo')
+            if (hora >= 6 && hora < 12) {
+               b.style.background = 'lightblue'
+               img.innerHTML = '<img src="imagem-manha.jpg" alt="imagem-manha" id="ima">'
+               peri.innerText = 'Bom dia!'
+            } else {
+                if (hora >= 12 && hora < 18){
+                    b.style.background = 'orange'
+                    img.innerHTML = '<img src="imagem-tarde.jpg" alt="imagem-manha" id="ima">'
+                    peri.innerText = 'Boa tarde!'
+
+                } else {
+                    b.style.background = 'gray'
+                    img.innerHTML = '<img src="imagem-noite.jpg" alt="imagem-manha" id="ima">'
+                    peri.innerText = 'Boa noite!'
+                }
+            }
+            if (min >= 0 && min < 10) {
+                p.innerHTML = `<p>Agora são ${hora}:0${min}</p>`
+            } else {
+                p.innerHTML = `<p>Agora são ${hora}:${min}</p>`
+            }
+            
+        </script>
+    </div>    
+</body>
+<footer>Site criado por @vitor.vitor07</footer>
+</html>
