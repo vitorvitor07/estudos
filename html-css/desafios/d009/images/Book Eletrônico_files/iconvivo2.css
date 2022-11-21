@@ -1,0 +1,855 @@
+﻿@font-face {
+    font-family: "icons-vivo";
+    src: url("../fonts/IconsVivo/icons-vivo.eot");
+    src: url("../fonts/IconsVivo/icons-vivo.eot?#iefix") format("embedded-opentype"), url("../fonts/IconsVivo/icons-vivo.woff") format("woff"), url("../fonts/IconsVivo/icons-vivo.ttf") format("truetype"), url("../fonts/IconsVivo/icons-vivo.svg#icons-vivo") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.iv2 {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "icons-vivo";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size: 1.4em!important;
+    vertical-align: middle;
+    margin-top: -6px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iv2-lg {
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.iv2-2x {
+    font-size: 2em!important;
+}
+
+.iv2-3x {
+    font-size: 3em!important;
+}
+
+.iv2-4x {
+    font-size: 4em!important;
+}
+
+.iv2-5x {
+    font-size: 5em!important;
+}
+
+.iv2-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.iv2-ul {
+    padding-left: 0;
+    margin-left: 2.14285714em;
+    list-style-type: none;
+}
+
+.iv2-ul > li {
+    position: relative;
+}
+
+.iv2-li {
+    position: absolute;
+    left: -2.14285714em;
+    width: 2.14285714em;
+    top: 0.14285714em;
+    text-align: center;
+}
+
+.iv2-li.iv2-lg {
+    left: -1.85714286em;
+}
+
+.iv2-border {
+    padding: .2em .25em .15em;
+    border: solid 0.08em #eeeeee;
+    border-radius: .1em;
+}
+
+.iv2-pull-left {
+    float: left;
+}
+
+.iv2-pull-right {
+    float: right;
+}
+
+.iv2.iv2-pull-left {
+    margin-right: .3em;
+}
+
+.iv2.iv2-pull-right {
+    margin-left: .3em;
+}
+
+/* ----- */
+
+.v-sinal-4g:before {
+    content: "\e900";
+}
+
+.v-folha-duvida:before {
+    content: "\e901";
+}
+
+.v-circ-avancar:before {
+    content: "\e905";
+}
+
+.v-mao-direita:before {
+    content: "\e906";
+}
+
+.v-despertador:before {
+    content: "\e907";
+}
+
+.v-circ-exclamacao:before {
+    content: "\e908";
+}
+
+.v-onda-sinal:before {
+    content: "\e90a";
+}
+
+.v-folha-certificado:before {
+    content: "\e90b";
+}
+
+.v-parabolica:before {
+    content: "\e90d";
+}
+
+.v-erb:before {
+    content: "\e90e";
+}
+
+.v-escudo:before {
+    content: "\e90f";
+}
+
+.v-relogio:before {
+    content: "\e910";
+}
+
+.v-seta-baixo:before {
+    content: "\e913";
+}
+
+.v-seta-ida-volta-hor:before {
+    content: "\e914";
+}
+
+.v-seta-esquerda:before {
+    content: "\e915";
+}
+
+.v-seta-direita:before {
+    content: "\e916";
+}
+
+.v-seta-ida-volta-diag:before {
+    content: "\e917";
+}
+
+.v-seta-ida-volta-vert:before {
+    content: "\e918";
+}
+
+.v-seta-cima:before {
+    content: "\e91b";
+}
+
+.v-pessoa-gravata:before {
+    content: "\e91e";
+}
+
+.v-circ-retroceder:before {
+    content: "\e91f";
+}
+
+.v-bateria-cheia:before {
+    content: "\e920";
+}
+
+.v-bluetooth:before {
+    content: "\e922";
+}
+
+.v-brasil:before {
+    content: "\e923";
+}
+
+.v-calculadora:before {
+    content: "\e924";
+}
+
+.v-calendario:before {
+    content: "\e925";
+}
+
+.v-telefone-seta:before {
+    content: "\e927";
+}
+
+.v-camera:before {
+    content: "\e92b";
+}
+
+.v-carrinho-compra:before {
+    content: "\e92c";
+}
+
+.v-circ-cifrao:before {
+    content: "\e92d";
+}
+
+.v-celular-check:before {
+    content: "\e92e";
+}
+
+.v-celular-tecla:before {
+    content: "\e92f";
+}
+
+.v-celular-sem-tecla:before {
+    content: "\e930";
+}
+
+.v-telefone-ida-volta:before {
+    content: "\e931";
+}
+
+.v-organograma:before {
+    content: "\e932";
+}
+
+.v-conversa:before {
+    content: "\e933";
+}
+
+.v-check:before {
+    content: "\e934";
+}
+
+.v-chip-vert:before {
+    content: "\e935";
+}
+
+.v-clique:before {
+    content: "\e936";
+}
+
+.v-circ-seta:before {
+    content: "\e937";
+}
+
+.v-upload-nuvem:before {
+    content: "\e938";
+}
+
+.v-nuvens:before {
+    content: "\e939";
+}
+
+.v-nuvem:before {
+    content: "\e93a";
+}
+
+.v-sol-nuvem:before {
+    content: "\e93b";
+}
+
+.v-documento:before {
+    content: "\e93e";
+}
+
+.v-computador:before {
+    content: "\e93f";
+}
+
+.v-telefone-tocando:before {
+    content: "\e940";
+}
+
+.v-celular-chip:before {
+    content: "\e941";
+}
+
+.v-erb-sinal-cheio-dir:before {
+    content: "\e942";
+}
+
+.v-cartao-credito:before {
+    content: "\e943";
+}
+
+.v-pen:before {
+    content: "\e944";
+}
+
+.v-celular-globo:before {
+    content: "\e945";
+}
+
+.v-iot:before {
+    content: "\e947";
+}
+
+.v-folha-cifrao:before {
+    content: "\e948";
+}
+
+.v-folha-arroba:before {
+    content: "\e949";
+}
+
+.v-prancheta:before {
+    content: "\e94a";
+}
+
+.v-folha-contrato-cifrao:before {
+    content: "\e94b";
+}
+
+.v-folha-duplicar:before {
+    content: "\e94c";
+}
+
+.v-porta-sair:before {
+    content: "\e94d";
+}
+
+.v-double-check:before {
+    content: "\e94e";
+}
+
+.v-erb-sinal-medio-esq:before {
+    content: "\e94f";
+}
+
+.v-download:before {
+    content: "\e950";
+}
+
+.v-folha-contrato-2via:before {
+    content: "\e951";
+}
+
+.v-computador-cifrao:before {
+    content: "\e952";
+}
+
+.v-folha-vegetal:before {
+    content: "\e953";
+}
+
+.v-editar:before {
+    content: "\e954";
+}
+
+.v-arroba:before {
+    content: "\e955";
+}
+
+.v-circ-x:before {
+    content: "\e957";
+}
+
+.v-sacola-estrela:before {
+    content: "\e958";
+}
+
+.v-controle-admin:before {
+    content: "\e95a";
+}
+
+.v-familia:before {
+    content: "\e95b";
+}
+
+.v-balao-duvida:before {
+    content: "\e95c";
+}
+
+.v-fixo-estrela:before {
+    content: "\e95d";
+}
+
+.v-celular-estrela:before {
+    content: "\e95e";
+}
+
+.v-imprimir:before {
+    content: "\e95f";
+}
+
+.v-contatos:before {
+    content: "\e960";
+}
+
+.v-contrato-metade:before {
+    content: "\e961";
+}
+
+.v-erb-sinal-cheio-esq:before {
+    content: "\e962";
+}
+
+.v-nuvem-trovao:before {
+    content: "\e963";
+}
+
+.v-controle-jogo:before {
+    content: "\e964";
+}
+
+.v-presente:before {
+    content: "\e965";
+}
+
+.v-globo:before {
+    content: "\e968";
+}
+
+.v-casa-sair:before {
+    content: "\e969";
+}
+
+.v-sinal-g:before {
+    content: "\e96a";
+}
+
+.v-satelite:before {
+    content: "\e96b";
+}
+
+.v-grafico:before {
+    content: "\e96c";
+}
+
+.v-ladrao:before {
+    content: "\e96e";
+}
+
+.v-mala:before {
+    content: "\e96f";
+}
+
+.v-coracao:before {
+    content: "\e970";
+}
+
+.v-nuvem-chuva:before {
+    content: "\e971";
+}
+
+.v-circ-interrogacao:before {
+    content: "\e972";
+}
+
+.v-com-som:before {
+    content: "\e973";
+}
+
+.v-casa:before {
+    content: "\e975";
+}
+
+.v-sinal-h:before {
+    content: "\e978";
+}
+
+.v-sinal-hmais:before {
+    content: "\e977";
+}
+
+.v-imagem:before {
+    content: "\e979";
+}
+
+.v-imagem-2:before {
+    content: "\e97a";
+}
+
+.v-computador-x:before {
+    content: "\e97b";
+}
+
+.v-mundo:before {
+    content: "\e97d";
+}
+
+.v-folha-contrato-dobra:before {
+    content: "\e97e";
+}
+
+.v-teclado:before {
+    content: "\e97f";
+}
+
+.v-prancheta-globo:before {
+    content: "\e981";
+}
+
+.v-policia:before {
+    content: "\e982";
+}
+
+.v-telescopio:before {
+    content: "\e983";
+}
+
+.v-lupa:before {
+    content: "\e984";
+}
+
+.v-livro-duvida:before {
+    content: "\e985";
+}
+
+.v-computador-diag:before {
+    content: "\e986";
+}
+
+.v-sd-card:before {
+    content: "\e987";
+}
+
+.v-sol-guarda-chuva:before {
+    content: "\e988";
+}
+
+.v-imagem-email:before {
+    content: "\e989";
+}
+
+.v-celular-calendario:before {
+    content: "\e98d";
+}
+
+.v-mouse:before {
+    content: "\e98e";
+}
+
+.v-celular-manutencao:before {
+    content: "\e98f";
+}
+
+.v-chip-hori:before {
+    content: "\e990";
+}
+
+.v-video-claquete:before {
+    content: "\e991";
+}
+
+.v-video:before {
+    content: "\e992";
+}
+
+.v-templo:before {
+    content: "\e993";
+}
+
+.v-musica:before {
+    content: "\e994";
+}
+
+.v-sem-som:before {
+    content: "\e995";
+}
+
+.v-pessoa:before {
+    content: "\e996";
+}
+
+.v-pessoa-estrela:before {
+    content: "\e997";
+}
+
+.v-radar:before {
+    content: "\e998";
+}
+
+.v-muro-tijolo:before {
+    content: "\e999";
+}
+
+.v-estrela-8p:before {
+    content: "\e99a";
+}
+
+.v-notebook:before {
+    content: "\e99b";
+}
+
+.v-folha-check:before {
+    content: "\e99c";
+}
+
+.v-circ-pause:before {
+    content: "\e99d";
+}
+
+.v-mao-cartao-credito:before {
+    content: "\e99e";
+}
+
+.v-grupo-pessoas:before {
+    content: "\e99f";
+}
+
+.v-celular-duvida:before {
+    content: "\e9a1";
+}
+
+.v-telefone:before {
+    content: "\e9a2";
+}
+
+.v-lista-telefonica:before {
+    content: "\e9a5";
+}
+
+.v-localidade:before {
+    content: "\e9a6";
+}
+
+.v-celular-mao-direita:before {
+    content: "\e9a7";
+}
+
+.v-circ-play:before {
+    content: "\e9a8";
+}
+
+.v-circ-ligar:before {
+    content: "\e9a9";
+}
+
+.v-trofeu:before {
+    content: "\e9aa";
+}
+
+.v-etiqueta-cifrao:before {
+    content: "\e9ab";
+}
+
+.v-imprimir-2:before {
+    content: "\e9ac";
+}
+
+.v-hierarquia:before {
+    content: "\e9ad";
+}
+
+.v-celular-notificacao:before {
+    content: "\e9b1";
+}
+
+.v-roteador:before {
+    content: "\e9b2";
+}
+
+.v-wifi:before {
+    content: "\e9e8";
+}
+
+.v-circ-porcentagem:before {
+    content: "\e9b6";
+}
+
+.v-folha-pesquisa:before {
+    content: "\e9b7";
+}
+
+.v-pessoa-helpdesk:before {
+    content: "\e9b9";
+}
+
+.v-computador-bloqueio:before {
+    content: "\e9ba";
+}
+
+.v-cadeado:before {
+    content: "\e9bb";
+}
+
+.v-seta-mouse:before {
+    content: "\e9bc";
+}
+
+.v-mao-manutencao:before {
+    content: "\e9bd";
+}
+
+.v-mao-documento:before {
+    content: "\e9be";
+}
+
+.v-prancheta-manutencao:before {
+    content: "\e9c0";
+}
+
+.v-pessoa-manutencao:before {
+    content: "\e9c1";
+}
+
+.v-escudo-2:before {
+    content: "\e9c2";
+}
+
+.v-folha-assinar:before {
+    content: "\e9c3";
+}
+
+.v-semaforo:before {
+    content: "\e9c4";
+}
+
+.v-organograma-full:before {
+    content: "\e9c5";
+}
+
+.v-email-check:before {
+    content: "\e9c6";
+}
+
+.v-single-check:before {
+    content: "\e9dc";
+}
+
+.v-cadeado-aberto:before {
+    content: "\e9dd";
+}
+
+.v-upload:before {
+    content: "\e9de";
+}
+
+.v-usb:before {
+    content: "\e9df";
+}
+
+.v-camera-vigilancia:before {
+    content: "\e9e1";
+}
+
+.v-mensagem-voz:before {
+    content: "\e9e2";
+}
+
+.v-circ-arroba:before {
+    content: "\e9e5";
+}
+
+.v-antena-bidirecional:before {
+    content: "\e9eb";
+}
+
+.v-android:before {
+    content: "\e9ec";
+}
+
+.v-apple:before {
+    content: "\e9ed";
+}
+
+.v-windows:before {
+    content: "\e9ee";
+}
+
+.v-vivo:before {
+    content: "\e9ef";
+}
+
+.v-database:before {
+    content: "\e9f0";
+}
+
+.v-memoria:before {
+    content: "\e9f1";
+}
+
+.v-email-enviar:before {
+    content: "\e9c8";
+}
+
+.v-email-excluir:before {
+    content: "\e9c9";
+}
+
+.v-email:before {
+    content: "\e9ca";
+}
+
+.v-nuvem-neve:before {
+    content: "\e9cb";
+}
+
+.v-neve:before {
+    content: "\e9cc";
+}
+
+.v-caixa-som:before {
+    content: "\e9cd";
+}
+
+.v-estrela-5p:before {
+    content: "\e9ce";
+}
+
+.v-circ-stop:before {
+    content: "\e9cf";
+}
+
+.v-sol:before {
+    content: "\e9d0";
+}
+
+.v-etiqueta:before {
+    content: "\e9d1";
+}
+
+.v-pessoa-fila:before {
+    content: "\e9d2";
+}
+
+.v-alvo:before {
+    content: "\e9d3";
+}
+
+.v-telefone-fixo:before {
+    content: "\e9d4";
+}
+
+.v-chave-boca:before {
+    content: "\e9d5";
+}
+
+.v-balao-manutencao:before {
+    content: "\e9d6";
+}
+
+.v-mao-touch:before {
+    content: "\e9d7";
+}
+
+.v-lixeira:before {
+    content: "\e9d9";
+}
+
+.v-tv:before {
+    content: "\e9db";
+}

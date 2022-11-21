@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        div{
+            display: inline-block;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(58, 58, 53);
+            text-align: center;
+        }
+
+        .principal:hover{
+            background-color: rgb(51, 255, 0);
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+        }
+
+        .div2:hover{
+            background-color: orange;
+        }
+
+        .div3:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Classes em CSS</h1>
+    <div class="principal">
+        01
+        <p>Vai tomar no cu</p>
+    </div>
+    <div class="div2">
+        02
+    </div>
+    <div class="div3">
+        03
+    </div>
+</body>
+</html>

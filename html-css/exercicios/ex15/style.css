@@ -1,0 +1,17 @@
+
+body{
+    background-color: rgb(226, 81, 110);
+    font-family: fantasy;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-style: italic;
+}
+img{
+    text-align: center;
+}
