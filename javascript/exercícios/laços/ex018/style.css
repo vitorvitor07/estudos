@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+}
+
+header{
+    text-align: center;
+    margin: 15px;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+body{
+    background-color: tomato;
+}
+
+main{
+    padding: 15px;
+    margin: 10px auto 10px auto;
+    background-color: white;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.432);
+}
+
+select{
+    margin: 10px auto 10px auto;
+    max-width: 350px;
+}
+
+p{
+    margin: 10px auto 10px auto;
+}
